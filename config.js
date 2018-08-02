@@ -5320,7 +5320,7 @@ pbjsChunk([78], {
                 if (!u) {
                     var t = n.createInvisibleIframe();
                     t.src = f + "ads.pubmatic.com/AdServer/js/showad.js#PIX&kdntuid=1&p=" + e,
-                    n.insertElement(t, document),
+                    n.insertElement(t, document, 'body'),
                     u = !0
                 }
             }
